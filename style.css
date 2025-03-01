@@ -23,6 +23,7 @@ nav.menuLateral{
     top: 0;
     left: 0;
     overflow: hidden;
+    transition: .5s;
 }
 nav.menuLateral.expandir{
     width: 300px;
@@ -62,8 +63,15 @@ ul li.item-menu a{
     line-height: 40px;
 }
 ul li.item-menu a .txt-link{
-    margin-left: 40px;
+    margin-left: 70px;
+    transition: .8s;
+    opacity: 0;
 }
+nav.menuLateral.expandir .txt-link{
+    margin-left: 40px;
+    opacity: 1;
+}
+
 ul li.item-menu a .icon > i{
     font-size: 30px;
     margin-left: 10px;
