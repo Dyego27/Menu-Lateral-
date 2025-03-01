@@ -41,6 +41,11 @@ ul{
 ul li.item-menu{
     transition: all 1.2s;
 }
+
+ul li.ativo{
+    background-color: var(--light-pink);
+}
+
 ul li.item-menu:hover{
     background-color: var(--light-pink);
 }
