@@ -24,6 +24,9 @@ nav.menuLateral{
     left: 0;
     overflow: hidden;
 }
+nav.menuLateral.expandir{
+    width: 300px;
+}
 .btnExpandir{
     width: 100%;
     padding-left: 10px;
